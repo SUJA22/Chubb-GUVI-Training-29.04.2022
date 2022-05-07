@@ -1,0 +1,5 @@
+<div class="container">
+  <div class="row" *ngFor="let card of card_data">
+    <app-card [top_title]=card.title [price]="card.price" [benefit_content]="card.properties" [muted_content]="card.muted_properties"></app-card>
+</div>
+</div>

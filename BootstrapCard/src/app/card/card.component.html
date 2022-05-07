@@ -1,0 +1,20 @@
+<div class="col-lg-4">
+  <div class="card mb-5 mb-lg-0">
+    <div class="card-body">
+      <h5 class="card-title text-muted text-uppercase text-center">{{top_title}}</h5>
+      <h6 class="card-price text-center">
+        ${{price}}<span class="period">/month</span>
+      </h6>
+      <hr />
+      <ul>
+          <li *ngFor="let content of benefit_content">{{content}}</li>
+      </ul>
+      <ul class="text-muted">
+        <li *ngFor="let content of muted_content">{{content}}</li>
+    </ul>
+      <div class="d-grid">
+        <button class="btn btn-primary text-uppercase text-center">Button</button>
+      </div>
+    </div>
+  </div>
+</div>
